@@ -12,7 +12,7 @@ def graph_analysis(nodes_filepath, edges_filepath):
     print()
     for node in spanning_tree.nodes:
       print("Passos para o nó " + node + ": " + str(spanning_tree.nodes[node].steps))
-      spanning_tree.print_path_to_node(node) # aqui tava graph ao inves de spanning_tree
+      spanning_tree.print_path_to_node(node)
       print('\n')
   print()
 
